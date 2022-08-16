@@ -1,0 +1,6 @@
+name: BedrockMiner
+main: me.explosivemines.BedrockMiner.BPlugin
+version: '${project.version}'
+api-version: 1.19
+author: explosivemines
+depend: [ ProtocolLib ]
