@@ -131,7 +131,7 @@ public final class PacketListener extends PacketAdapter {
             player.playSound(player.getLocation(), Sound.ENTITY_ITEM_PICKUP, 0.5f, 0.5f);
         }
 
-        if (!hand.hasItemMeta() || !(hand.getItemMeta() instanceof Damageable damageable))
+        if (!(hand.getItemMeta() instanceof Damageable damageable))
             return;
 
         int calculatedDamage = damageable.getDamage() + tool.getDamage();
