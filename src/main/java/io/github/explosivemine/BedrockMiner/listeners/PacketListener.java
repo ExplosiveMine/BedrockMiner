@@ -130,6 +130,7 @@ public final class PacketListener extends PacketAdapter {
             player.getInventory().addItem(new ItemStack(blockType, 1));
             player.playSound(player.getLocation(), Sound.ENTITY_ITEM_PICKUP, 0.5f, 0.5f);
         }
+        player.playSound(block.getLocation(), block.getBlockData().getSoundGroup().getBreakSound(), 1f, 1f);
 
         if (!(hand.getItemMeta() instanceof Damageable damageable))
             return;
