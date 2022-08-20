@@ -1,7 +1,7 @@
 # List of blocks you can break with the pickaxe
 Block Settings:
   1:
-    # material list: https://helpch.at/docs/1.8/org/bukkit/Material.html
+    # material list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
     material: "BEDROCK"
     tools:
       1:
@@ -39,6 +39,6 @@ Block Settings:
         add to inventory: true
         permission: "msb.endportal.dia_spade"
 
-disable dragon egg teleport: true
+disable dragon egg teleport: false
 
 debug: true
